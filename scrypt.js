@@ -439,7 +439,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №1</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://github.com/SerAvram/webProject1" target="_blank">Проект.</a> <a href="https://seravram.github.io/webProject1/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/SerAvram/webresume" target="_blank">Резюме.</a> <a href="https://seravram.github.io/webresume/" target="_blank">Сайт резюме.</a></p>
 
@@ -543,7 +543,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №2</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://seravram.github.io/WebProjectN2/" target="_blank">Проект.</a> <a href="https://github.com/SerAvram/WebProjectN2" target="_blank">Сайт проекту.</a></p>
                 
             `;
@@ -662,7 +662,7 @@ function displaySubMenuContent(buttonText) {
                 
             <h3>Місце розташування ЛР №3</h3>
             <p>Розміщено на GitHub</p>
-            <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+            <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
             <p><a href="https://github.com/SerAvram/WebProjecN3" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjecN3/" target="_blank">Сайт проекту.</a></p>
             <p><a href="https://github.com/SerAvram/Lab4GV" target="_blank">Проект.</a> <a href="https://seravram.github.io/Lab4GV/" target="_blank">Сайт табличної верстки.</a></p>
             <p><a href="https://github.com/SerAvram/Lab4BV" target="_blank">Проект.</a> <a href="https://seravram.github.io/Lab4BV/" target="_blank">Сайт блокової верстки.</a></p>
@@ -789,7 +789,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №4</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://github.com/SerAvram/WebProjectN4" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjectN4/" target="_blank">Сайт проекту.</a></p>
                         
                 `;
