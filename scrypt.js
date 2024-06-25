@@ -70,7 +70,7 @@ function displayContent(labNumber) {
         labContent = `
             <h3>Лабораторна робота № 9</h3>
         `;
-        createSubMenu(8);
+        createSubMenu(9);
     }
     // Вивести зміст лабораторної роботи в відповідний блок
     document.getElementById("lab-content").innerHTML = labContent;
@@ -81,7 +81,7 @@ function displayContent(labNumber) {
 
 function createSubMenu(labNumber) {
     let menu = document.querySelector(".test");
-    console.log(menu)
+    console.log(labNumber)
     // Тут можна додати кнопки для меню змісту
     if (labNumber === 1) {
 
@@ -318,13 +318,6 @@ else if (labNumber === 4) {
     };
     menu.appendChild(button404);
 
-    // let button405 = document.createElement("button");
-    // button405.textContent = "Альтернативне рішення";
-    // button405.onclick = function() {
-    //     displaySubMenuContent("Альтернативне рішення");
-    // };
-    // menu.appendChild(button405);
-
 
     let button406 = document.createElement("button");
     button406.textContent = "ВИСНОВКИ до ЛР №4";
@@ -332,6 +325,264 @@ else if (labNumber === 4) {
         displaySubMenuContent("ВИСНОВКИ до ЛР №4");
     };
     menu.appendChild(button406);
+}
+
+else if (labNumber === 5) {
+    let button501 = document.createElement("button");
+    button501.textContent = "Постановка задачі ЛР № 5";
+    button501.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 5");
+    };
+    menu.appendChild(button501);
+
+    let button502 = document.createElement("button");
+    button502.textContent = "Способи функціонального застосування JS";
+    button502.onclick = function() {
+        displaySubMenuContent("Способи функціонального застосування JS");
+    };
+    menu.appendChild(button502);
+
+    let button503 = document.createElement("button");
+    button503.textContent = "Схема URL";
+    button503.onclick = function() {
+        displaySubMenuContent("Схема URL");
+    };
+    menu.appendChild(button503);
+
+    let button504 = document.createElement("button");
+    button504.textContent = "Обробник подій";
+    button504.onclick = function() {
+        displaySubMenuContent("Обробник подій");
+    };
+    menu.appendChild(button504);
+
+    let button505 = document.createElement("button");
+    button505.textContent = "Підстановка (entity)";
+    button505.onclick = function() {
+        displaySubMenuContent("Підстановка (entity)");
+    };
+    menu.appendChild(button505);
+
+    let button506 = document.createElement("button");
+    button506.textContent = "Вставка (тег SCRIPT)";
+    button506.onclick = function() {
+        displaySubMenuContent("Вставка (тег SCRIPT)");
+    };
+    menu.appendChild(button506);
+
+    let button507 = document.createElement("button");
+    button507.textContent = "Виконання завдання 3";
+    button507.onclick = function() {
+        displaySubMenuContent("Виконання завдання 3");
+    };
+    menu.appendChild(button507);
+
+    let button508 = document.createElement("button");
+    button508.textContent = "Виконання завдання 5";
+    button508.onclick = function() {
+        displaySubMenuContent("Виконання завдання 5");
+    };
+    menu.appendChild(button508);
+
+    let button509 = document.createElement("button");
+    button509.textContent = "Виконання завдання 7";
+    button509.onclick = function() {
+        displaySubMenuContent("Виконання завдання 7");
+    };
+    menu.appendChild(button509);
+
+    let button510 = document.createElement("button");
+    button510.textContent = "Виконання завдання 5.1";
+    button510.onclick = function() {
+        displaySubMenuContent("Виконання завдання 5.1");
+    };
+    menu.appendChild(button510);
+   
+    let button511 = document.createElement("button");
+    button511.textContent = "ВИСНОВКИ за ЛР №5";
+    button511.onclick = function() {
+        displaySubMenuContent("ВИСНОВКИ за ЛР №5");
+    };
+    menu.appendChild(button511);
+}
+
+else if (labNumber === 6) {
+    let button601 = document.createElement("button");
+    button601.textContent = "Постановка задачі ЛР № 6";
+    button601.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 6");
+    };
+    menu.appendChild(button601);
+
+    let button602 = document.createElement("button");
+    button602.textContent = "Виконання завдання 1";
+    button602.onclick = function() {
+        displaySubMenuContent("Виконання завдання 13");
+    };
+    menu.appendChild(button602);
+
+    let button603 = document.createElement("button");
+    button603.textContent = "Виконання завдання 3";
+    button603.onclick = function() {
+        displaySubMenuContent("Виконання завдання 33");
+    };
+    menu.appendChild(button603);
+
+    let button604 = document.createElement("button");
+    button604.textContent = "Виконання завдання 5";
+    button604.onclick = function() {
+        displaySubMenuContent("Виконання завдання 53");
+    };
+    menu.appendChild(button604);
+
+    let button605 = document.createElement("button");
+    button605.textContent = "Виконання завдання 7";
+    button605.onclick = function() {
+        displaySubMenuContent("Виконання завдання 73");
+    };
+    menu.appendChild(button605);
+
+    let button606 = document.createElement("button");
+    button606.textContent = "Виконання завдання 8";
+    button606.onclick = function() {
+        displaySubMenuContent("Виконання завдання 83");
+    };
+    menu.appendChild(button606);
+
+    let button607 = document.createElement("button");
+    button607.textContent = "Виконання завдання 9";
+    button607.onclick = function() {
+        displaySubMenuContent("Виконання завдання 93");
+    };
+    menu.appendChild(button607);
+
+    let button608 = document.createElement("button");
+    button608.textContent = "Виконання завдання 10";
+    button608.onclick = function() {
+        displaySubMenuContent("Виконання завдання 103");
+    };
+    menu.appendChild(button608);
+   
+    let button609 = document.createElement("button");
+    button609.textContent = "ВИСНОВКИ за ЛР №6";
+    button609.onclick = function() {
+        displaySubMenuContent("ВИСНОВКИ за ЛР №6");
+    };
+    menu.appendChild(button609);
+}
+
+else if (labNumber === 7) {
+    
+    let button701 = document.createElement("button");
+    button701.textContent = "Постановка задачі ЛР № 7";
+    button701.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 7");
+    };
+    menu.appendChild(button701);
+
+    let button702 = document.createElement("button");
+    button702.textContent = "Виконання завдання 1";
+    button702.onclick = function() {
+        displaySubMenuContent("Виконання завдання 12");
+    };
+    menu.appendChild(button702);
+
+    let button703 = document.createElement("button");
+    button703.textContent = "Виконання завдання 2";
+    button703.onclick = function() {
+        displaySubMenuContent("Виконання завдання 22");
+    };
+    menu.appendChild(button703);
+
+    let button704 = document.createElement("button");
+    button704.textContent = "ВИСНОВКИ до ЛР №7";
+    button704.onclick = function() {
+        displaySubMenuContent("ВИСНОВКИ до ЛР №7");
+    };
+    menu.appendChild(button704);
+}
+
+else if (labNumber === 8) {
+    
+    let button801 = document.createElement("button");
+    button801.textContent = "Постановка задачі ЛР № 8";
+    button801.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 8");
+    };
+    menu.appendChild(button801);
+
+    let button802 = document.createElement("button");
+    button802.textContent = "Неділя 1";
+    button802.onclick = function() {
+        displaySubMenuContent("Неділя 1");
+    };
+    menu.appendChild(button802);
+
+    let button803 = document.createElement("button");
+    button803.textContent = "Неділя 2";
+    button803.onclick = function() {
+        displaySubMenuContent("Неділя 2");
+    };
+    menu.appendChild(button803);
+
+    let button804 = document.createElement("button");
+    button804.textContent = "Неділя 3";
+    button804.onclick = function() {
+        displaySubMenuContent("Неділя 3");
+    };
+    menu.appendChild(button804);
+
+    let button805 = document.createElement("button");
+    button805.textContent = "Неділя 4";
+    button805.onclick = function() {
+        displaySubMenuContent("Неділя 4");
+    };
+    menu.appendChild(button805);
+
+    let button806 = document.createElement("button");
+    button806.textContent = "Сертифікат + Оцінки";
+    button806.onclick = function() {
+        displaySubMenuContent("Сертифікат + Оцінки");
+    };
+    menu.appendChild(button806);
+}
+
+else if (labNumber === 9) {
+    
+    let button901 = document.createElement("button");
+    button901.textContent = "Постановка задачі ЛР № 9";
+    button901.onclick = function() {
+        displaySubMenuContent("Постановка задачі ЛР № 9");
+    };
+    menu.appendChild(button901);
+
+    let button902 = document.createElement("button");
+    button902.textContent = "Неділя 1";
+    button902.onclick = function() {
+        displaySubMenuContent("Неділя 12");
+    };
+    menu.appendChild(button902);
+
+    let button903 = document.createElement("button");
+    button903.textContent = "Неділя 2";
+    button903.onclick = function() {
+        displaySubMenuContent("Неділя 22");
+    };
+    menu.appendChild(button903);
+
+    let button904 = document.createElement("button");
+    button904.textContent = "Неділя 3";
+    button904.onclick = function() {
+        displaySubMenuContent("Неділя 32");
+    };
+    menu.appendChild(button904);
+
+    let button905 = document.createElement("button");
+    button905.textContent = "Сертифікат + Оцінки";
+    button905.onclick = function() {
+        displaySubMenuContent("Сертифікат + Оцінки2");
+    };
+    menu.appendChild(button905);
 }
 
 }
@@ -439,7 +690,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №1</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://github.com/SerAvram/webProject1" target="_blank">Проект.</a> <a href="https://seravram.github.io/webProject1/" target="_blank">Сайт проекту.</a></p>
                 <p><a href="https://github.com/SerAvram/webresume" target="_blank">Резюме.</a> <a href="https://seravram.github.io/webresume/" target="_blank">Сайт резюме.</a></p>
 
@@ -543,7 +794,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №2</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://seravram.github.io/WebProjectN2/" target="_blank">Проект.</a> <a href="https://github.com/SerAvram/WebProjectN2" target="_blank">Сайт проекту.</a></p>
                 
             `;
@@ -662,7 +913,7 @@ function displaySubMenuContent(buttonText) {
                 
             <h3>Місце розташування ЛР №3</h3>
             <p>Розміщено на GitHub</p>
-            <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
+            <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
             <p><a href="https://github.com/SerAvram/WebProjecN3" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjecN3/" target="_blank">Сайт проекту.</a></p>
             <p><a href="https://github.com/SerAvram/Lab4GV" target="_blank">Проект.</a> <a href="https://seravram.github.io/Lab4GV/" target="_blank">Сайт табличної верстки.</a></p>
             <p><a href="https://github.com/SerAvram/Lab4BV" target="_blank">Проект.</a> <a href="https://seravram.github.io/Lab4BV/" target="_blank">Сайт блокової верстки.</a></p>
@@ -789,7 +1040,7 @@ function displaySubMenuContent(buttonText) {
 
                 <h3>Місце розташування ЛР №4</h3>
                 <p>Розміщено на GitHub</p>
-                <p><a href="https://github.com/SerAvram/Report" target="_blank">Звіт.</a> <a href="https://seravram.github.io/Report/" target="_blank">Сайт звіту.</a></p>
+                <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
                 <p><a href="https://github.com/SerAvram/WebProjectN4" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjectN4/" target="_blank">Сайт проекту.</a></p>
                         
                 `;
@@ -872,12 +1123,633 @@ function displaySubMenuContent(buttonText) {
                                         
                 `;
                 break;
+
+                case "Постановка задачі ЛР № 5":
+                contentHTML = `
+                    <h3>Постановка задачі лабораторної роботи № 5 (Тема, мета ЛР №5).</h3>
+                    <p>ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. 
+                    ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT.</p>
+
+                    <p>ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ.</p>
+            
+                    <p>Мета: Придбати практичні навички роботи з масивами у js-сценаріях. 
+                    Реалізація програм засобами мови JAVASCRIPT</p>
+                    <p>Мета: Придбати практичні навички роботи з об'єктами. Методи об'єкта.. 
+                    Callback. Стрілочні функції. Стрілочні функції як колбеки.
+                    Реалізація програм засовами мови JAVASCRIPT</p>
+            
+                    <h3>Місце розташування ЛР №5</h3>
+                    <p>Розміщено на GitHub</p>
+                    <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                    <a href="https://github.com/SerAvram/WebProjectN57" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjectN57/" target="_blank">Сайт проекту.</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectN55" target="_blank">Виконання завдання 3.</a> <a href="https://seravram.github.io/WebProjectN55/" target="_blank">Сайт виконання завдання</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjecN56" target="_blank">Виконання завдання 5.</a> <a href="https://seravram.github.io/WebProjecN56/" target="_blank">Сайт виконання завдання</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectN51U" target="_blank">Виконання завдання 5.1.</a> <a href="https://seravram.github.io/WebProjectN51U/" target="_blank">Сайт виконання завдання</a></p>
+                    
+                    `;
+                    break;
+                       
+                case "Способи функціонального застосування JS":
+                contentHTML = `
+                    <h3>Способи функціонального застосування JavaScript:</h3>
+                    
+                    <p>JavaScript (JS) є однією з найпопулярніших мов програмування для розробки веб-додатків.
+                     Він має широкий спектр функціонального застосування, що дозволяє створювати інтерактивні, динамічні
+                      та складні веб-сайти та додатки.</p>
+                                    
+                    `;
+                    break;
+                    
+                                    
+                case "Схема URL":
+                contentHTML = `
+                    <h3>Схема URL</h3>
+                    <p>URL - це адреса ресурсу в мережі, використовується для посилань. Одне з основних завдань мови програмування гіпертекстових систем - реалізація переходів за посиланнями. У веб-технології за замовчуванням використовується програма для завантаження сторінок. JavaScript дозволяє змінювати цю стандартну програму на користувацьку. Щоб відрізнити стандартний перехід за протоколом HTTP від переходу, програмованого на JavaScript, розробники мови ввели нову URL-схему - JavaScript:.</p>
+                    <img src="5URL1.png">   
+                    <br>
+                    <p>У наведених вище прикладів "код_програми" це JavaScript-скрипт, який буде виконуватись при кліканні на гіпертекстове посилання / при відправці даних форми (після натискання кнопки "Submit").</p> 
+                    <br>
+                    <p>Приклад URL</p>
+                    <a href="javascript:alert('Простий URL')">Кнопка</a>
+                    `;
+                    break;
+                                    
+                                    
+                case "Обробник подій":
+                contentHTML = `
+                    <h3>Обробник подій</h3>
+                    <br>
+                    <p>Обробник подій (Event Handler): Цей метод використовується для виконання 
+                        JavaScript коду відповідно до подій, що виникають на сторінці. Наприклад, 
+                        ми можемо викликати функцію JavaScript при кліку на елемент або при 
+                        введенні тексту в поле вводу.</p>
+                    <br> <br>
+    
+                    `;
+                    break;
                             
+                                            
+                case "Підстановка (entity)":
+                contentHTML = `
+                    <h3>Підстановка (entity)</h3>
+                    <p>Підстановка (entity): Цей термін може вказувати на використання JavaScript для 
+                        модифікації даних на сторінці під час її відображення.</p> 
+    
+                    `;
+                    break;
+    
+                case "Вставка (тег SCRIPT)":
+                contentHTML = `
+                    <h3>Вставка (тег SCRIPT)</h3>
+                    <p>На HTML-сторінці JavaScript код має бути вставлений між тегами <script> та </script>. Але є декілька способів це реалізувати.</p>
+                    <br>
+                    <br>     
+                    <p>1. у head</p> 
+                    <img src="5inp1.png">   
+                    <br>
+                    <p>2. у body</p>
+                    <img src="5inp2.png">   
+                    <p>3. помістити скрипт у head за допомого зовнішньго фалу</p> 
+                    <img src="5inp3.png">                                     
+                    `;
+                    break;
+    
+                case "Виконання завдання 3":
+                contentHTML = `
+                    <h3>Виконання завдання 3 (варіант 1):</h3>
+                    <br>                                   
+                    <p>Текст завдання:</p>
+                    <p>1. Створити одновимірний масив, кількість елементів якого задана користувачем. 
+                    Знайти максимальний серед парних елементів та мінімальний серед елементів з парними індексами. 
+                    В масиві поміняти місцями знайдені максимальний та мінімальний елементи, надрукувати вхідний та вихідний масиви.</p>
+                    <p>2.Виконати сортування вихідного масиву за зростанням методом вставки.</p>
+                    <p>Застосувати функції.</p>
+    
+                    <br>                                   
+                    <p>Результат:</p>
+                    <br> 
+                    <img src="5task1S1.png">
+                    <img src="5task1S2.png">                                 
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5task1S3.png">
+                    <img src="5task1S4.png">                                    
+                    <img src="5task1S5.png">   
+                    <img src="5task1S6.png">                          
+                                                   
+                    `;
+                    break;
+                case "Виконання завдання 5":
+                contentHTML = `
+                    <h3>Виконання завдання 5 (варіант 1)</h3>
+                    <br>  
+                    <p>Текст завдання:</p>
+                    <h4>Назва завдання: Валідація HTML-форми реєстрації користувача</h4>
+                    <p>Забезпечити перевірку елементів HTML-форми таких видів: ціле число, дійсне число, дата у форматі DD.MM.YYYY, однаковість даних у полях введення паролю (основне та перевірочне). Крім того, забезпечити перевірку введення обов‘язкових полів, помічених (*). </p>                         
+                    <br>                                   
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5task2S1.png">                                         
+                    <img src="5task2S2.png">                                      
+                    <img src="5task2S3.png">                                      
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5task2S4.png">  
+                    <img src="5task2S5.png">                                              
+                             
+                    `;
+                    break;
+            
+                case "Виконання завдання 7":
+                contentHTML = `
+                    <h3>Виконання завдання за пунктом 7</h3>
+                    <img src="57/page1.png">
+                    <img src="57/page2.png">
+                    <img src="57/page3.png">
+                    <img src="57/page4.png">
+                    <img src="57/html1.png">
+                    <img src="57/script.png">
+    
+                    `;
+                    break;
+
+                case "Виконання завдання 5.1":
+                contentHTML = `
+                    <h3>Виконання завдання 5.1</h3>
+                    <br>  
+                    <h3>Текст завдання 1:</h3>
+                    <p>Напишіть наступні функції:
+                    createProduct(obj, callback) - приймає об'єкт товару без id, а також коллбек. Функція створює об'єкт товару, додаючи йому унікальний ідентифікатор у властивість id та викликає коллбек передаючи йому створений об'єкт.
+                    logProduct(product) - колббек що приймає об'єкт продукту і логуючий його в консоль
+                    logTotalPrice(product) - колббек, що приймає об'єкт продукту і логіює загальну вартість товару в консоль</p>                                
+                    <p>logProduct(product) - колббек що приймає об'єкт продукту і логуючий його в консоль</p> 
+                    <p>logTotalPrice(product) - колббек, що приймає об'єкт продукту і логіює загальну вартість товару в консоль</p>                        
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5.1taskS1.png">                                         
+                    <img src="5.1taskS2.png">                                                                          
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1taskS3.png">  
+                    <img src="5.1taskS4.png">  
+
+                    <br>  
+                    <h3>Текст завдання 3:</h3>
+                    <p>З об'єкту medicines потрібно отримати масив   в якому будуть лише назви препаратів.</p>                                
+                    <p>З масиву  потрібно прибрати медикаменти , в яких строк зберігання  уже пройшов . У новому масиві відсортувати медикаменти  у хронологічному порядку.</p> 
+                    <p>Результат вивести у консоль. Застосувати стрілочні функції</p>                        
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5.1task3S1.png">                                                                                                                
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1task3S2.png">  
+
+                    <br>  
+                    <h3>Текст завдання 5:</h3>
+                    <p>Напишіть функцію, яка приймає массив об'єктів і повертає новий массив </p>                                
+                    <p>Зробіть знижку 20 % на всі фрукти у масиві Надайте ід для кожного продукту </p>                       
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5.1task5S2.png">                                                                                                                
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1task5S1.png">   
+
+                    <br>  
+                    <h3>Текст завдання 7:</h3>
+                    <p>Напиши клас Client який створює об'єкт з властивостями login email</p>                                
+                    <p>Оголоси приватні властивості #login #email, доступ до яких зроби через геттер та сеттер login email</p>                       
+                    <p>Приклади роботи програми:</p>                    
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5.1task7S1.png">                                                                                                                
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1task7S2.png">   
+
+                    <br>  
+                    <h3>Текст завдання 9:</h3>
+                    <p>Поверніть об'єкт, в якому вказано кількість тегів.</p>                                
+                    <p>Очікуваний результат {js: 3, nodejs: 3, html: 2, css: 2, react: 2}</p>                       
+                    <p>Приклади роботи програми:</p>
+                    <br> 
+                    <img src="5.1task9S1.png">                                                                                                                
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1task9S2.png">  
+
+                    <br>  
+                    <h3>Текст завдання 10:</h3>
+                    <p>Напишіть функцію checkBrackets(str) яка приймає рядок жс коду (someFn)  і перевіряє правильність закриття дужок () {} []</p>                                
+                    <p>Якщо рядок містить коректний код функція повертає true.</p>           
+                    <p>Якщо рядок містить коректний код функція повертає true.</p>                  
+                    <p>В іншому випадку повертає false</p>
+                    <br> 
+                    <img src="5.1task10S1.png">                                                                                                                
+    
+                    <br> 
+                    <br>     
+                    <p>Текст коду:</p> 
+                    <img src="5.1task10S2.png">  
+    
+                    `;
+                break;
+           
+                                
+                case "ВИСНОВКИ за ЛР №5":
+                contentHTML = `
+                    <h3>ВИСНОВКИ до ЛР №5</h3>
+                                    
+                    <p>В ході виконання лабораторної роботи набуто практичних навичок роботи з 
+                    масивами у js-сценаріях.  Виконано завдання з реалізаціъ програм засовами мови JAVASCRIPT.
+                    Відпрацьовано отримані навички на власному проекті.</p>
+                                                    
+                    `;
+                    break;
+            
+                    
+
+            case "Постановка задачі ЛР № 6":
+                contentHTML = `
+                    <h3>Тема, мета ЛР №6. Місце розташування сайту, звіту</h3>
+                    <p>Тема: КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ</p>
+        
+                    <p>Мета:</p>
+                    <p>⎯	Придбати практичні навички роботи з об'єктами. Методи об'єкта. Callback. Стрілочні функції. Стрілочні функції як колбеки.</p>
+                    <p>⎯	Реалізація програм засовами мови JAVASCRIPT</p>   
+                        
+                    <h3>Місце розташування ЛР №3</h3>
+                    <p>Розміщено на GitHub</p>
+                    <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectN57" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjectN57/" target="_blank">Сайт проекту.</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectn6" target="_blank">Завдання.</a> <a href="https://seravram.github.io/WebProjectn6/" target="_blank">Сайт завдання.</a></p>
+                    
+
+
+                    `;
+                    break;
+        
+                case "Виконання завдання 13":
+                    contentHTML = `
+                    <img src="6/zavd1.png">   
+                    <img src="6/zavd1.2.png"> 
+                    <img src="6/html1.png"> 
+                    <img src="6/code1.png">    
+                    `;
+                    break;
+                
+                case "Виконання завдання 33":
+                    contentHTML = `
+                    <img src="6/zavd3.png">    
+                    <img src="6/html3.png"> 
+                    <img src="6/code3.png">                  
+                                                        
+                    `;
+                    break;
+        
+                case "Виконання завдання 53":
+                    contentHTML = `
+                    <img src="6/zavd5.png">   
+                    <img src="6/zavd5.2.png"> 
+                    <img src="6/html5.png"> 
+                    <img src="6/code5.png">    
+                                        
+                    `;
+                    break;
+                case "Виконання завдання 73":
+                contentHTML = `
+                    <img src="6/zavd7.png">   
+                    <img src="6/zavd7.2.png"> 
+                    <img src="6/html7.png"> 
+                    <img src="6/code7.png">                   
+                                                    
+                    `;
+                    break;
+    
+                case "Виконання завдання 83":
+                contentHTML = `
+                    <img src="6/zavd8.png">   
+                    <img src="6/zavd8.2.png"> 
+                    <img src="6/zavd8.3.png"> 
+                    <img src="6/html3.png"> 
+                    <img src="6/code3.png">                     
+                                                    
+                    `;
+                    break;
+    
+                case "Виконання завдання 93":
+                contentHTML = `
+                    <img src="6/zavd9.png">   
+                    <img src="6/html9.png"> 
+                    <img src="6/code9.png">                         
+    
+                    `;
+                    break;
+    
+                case "Виконання завдання 103":
+                contentHTML = `
+                    <img src="6/zavd10.png">   
+                    <img src="6/html10.png"> 
+                    <img src="6/code10.png">   
+                    `;
+                    break;
+    
+                case "ВИСНОВКИ за ЛР №6":
+                contentHTML = `
+                    <h3>ВИСНОВКИ до ЛР №3</h3>
+    
+                    <p>В ході виконання лабораторної роботи набуто практичних навичок роботи  
+                    з об'єктами</p>
+                    
+                    `;
+                    break;
+
+            case "Постановка задачі ЛР № 7":
+                contentHTML = `
+                    <h3>Тема, мета ЛР №7 Місце розташування сайту, звіту</h3>
+                    <p>Тема: WEB-СХОВИЩЕ. WEB STORAGE API. МОДУЛЬНОСТЬ  КОДУ. СТВОРЕННЯ МОДАЛЬНОГО ВІКНА. ДЕЛЕГУВАННЯ ПОДІЙ.</p>
+        
+                    <p>Мета:</p>
+                    <p>Придбати практичні навички роботи створення модального вікна; повторити процес створення макету, зокрема створення макету галереї довільних зображень; закріпити навички роботи з делегуванням подій.</p>
+                        
+                    <h3>Місце розташування ЛР №7</h3>
+                    <p>Розміщено на GitHub</p>
+                    <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectN57" target="_blank">Проект.</a> <a href="https://seravram.github.io/WebProjectN57/" target="_blank">Сайт проекту.</a></p>
+                    <p><a href="https://github.com/SerAvram/WebProjectN7" target="_blank">Завдання.</a> <a href="https://seravram.github.io/WebProjectN7/" target="_blank">Сайт задвання.</a></p>
+        
+
+                    `;
+                    break;
+        
+                case "Виконання завдання 12":
+                    contentHTML = `
+                    <h3>ЗАВДАННЯ №1</h3>
+                    <img src="7/n1page.png">
+                    <img src="7/n1html.png">
+                    <img src="7/n1script1.png">
+                    <img src="7/n1script2.png">
+                    <img src="7/n1script3.png">
+                    <img src="7/css1.png">
+                    <img src="7/css1.png">
+
+                    `;
+                    break;
+                
+                case "Виконання завдання 22":
+                    contentHTML = `
+                        <h3>ЗАВДАННЯ №2</h3>
+                        <img src="7/n2page.png">
+                        <img src="7/n2html.png">
+                        <img src="7/n2script1.png">
+                        <img src="7/n2script2.png">
+                        <img src="7/css1.png">
+                        <img src="7/css1.png">          
+                                                        
+                    `;
+                    break;
+        
+                case "ВИСНОВКИ до ЛР №7":
+                contentHTML = `
+                    <h3>ВИСНОВКИ до ЛР №7</h3>
+
+                    <p>В ході виконання лабораторної роботи набуто практичних навичок роботи  
+                    створення модального вікна; повторити процес створення макету, зокрема створення макету галереї довільних зображень; закріпити навички роботи з делегуванням подій.</p>
+                    
+                    `;
+                    break;
+
+            case "Постановка задачі ЛР № 8":
+                contentHTML = `
+                    <h3>Тема: Building RESTful APIs with Node.js and Express</h3>
+                    <p>Розміщено на GitHub</p>
+                    <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+        
+                    `;
+                    break;
+        
+                case "Неділя 1":
+                    contentHTML = `
+                    <h1>Неділя 1</h1>
+                    <h3>Lab: Your first component</h3>
+                    <img src="89/8/8code1.png">   
+                    <h3>Self review: Your first component</h3>
+                    <img src="89/8/8test1.png"> 
+                    <h3>Lab: Creating and importing components</h3>
+                    <img src="89/8/8code2.1.png">  
+                    <img src="89/8/8code2.2.png">  
+                    <h3>Self review: Creating and importing components</h3>
+                    <img src="89/8/8test2.png"> 
+                    <h3>Knowledge check: React components and where they live</h3>
+                    <img src="89/8/8test3.1.png"> 
+                    <img src="89/8/8test3.2.png">
+                    <img src="89/8/8test3.3.png">  
+                    <h3>Lab: Passing props</h3>
+                    <img src="89/8/8code3.1.png">  
+                    <img src="89/8/8code3.2.png">  
+                    <h3>Self review: Passing props</h3>
+                    <img src="89/8/8test4.png"> 
+                    <h3>Lab: Multiple components</h3>
+                    <img src="89/8/8code4.1.png">  
+                    <img src="89/8/8code4.2.png"> 
+                    <h3>Self review: Multiple components</h3>
+                    <img src="89/8/8test5.png">  
+                    <h3>Module Quiz</h3>
+                    <img src="89/8/8test6.1.png"> 
+                    <img src="89/8/8test6.2.png"> 
+                    <img src="89/8/8test6.3.png"> 
+                    <img src="89/8/8test6.4.png"> 
+                    `;
+                    break;
+                
+                case "Неділя 2":
+                    contentHTML = `
+                    <h1>Неділя 2</h1>
+                    <h3>Knowledge check: Events and errors</h3>
+                    <img src="89/8/8test7.1.png"> 
+                    <img src="89/8/8test7.2.png"> 
+                    <h3>Lab: Dynamic events</h3>
+                    <img src="89/8/8code5.1.png"> 
+                    <h3>Self review: Dynamic events</h3>
+                    <img src="89/8/8test8.1.png"> 
+                    <img src="89/8/8test8.2.png">          
+                    <h3>Knowledge check: Dynamic events and how to handle them</h3>
+                    <img src="89/8/8test9.1.png"> 
+                    <img src="89/8/8test9.2.png">   
+                    <img src="89/8/8test9.3.png">     
+                    <h3>Knowledge check: Data flow</h3>
+                    <img src="89/8/8test10.1.png"> 
+                    <img src="89/8/8test10.2.png">   
+                    <img src="89/8/8test10.3.png">        
+                    <h3>Knowledge Check: State the concept</h3>
+                    <img src="89/8/8test11.1.png"> 
+                    <img src="89/8/8test11.2.png">         
+                    <h3>Knowledge check: Passing state</h3>
+                    <img src="89/8/8test12.1.png"> 
+                    <img src="89/8/8test12.2.png"> 
+                    <h3>Lab: Managing state in React</h3>
+                    <img src="89/8/8code6.1.png">     
+                    <img src="89/8/8code6.2.png">  
+                    <img src="89/8/8code6.3.png">     
+                    <h3>Self review: Managing state in React</h3>
+                    <img src="89/8/8test13.1.png"> 
+                    <img src="89/8/8test13.2.png">    
+                    <h3>Knowledge check: State or stateless</h3>
+                    <img src="89/8/8test14.1.png"> 
+                    <img src="89/8/8test14.2.png">     
+                    <h3>Module quiz: Data and state</h3>
+                    <img src="89/8/8test15.1.png"> 
+                    <img src="89/8/8test15.2.png">  
+                    <img src="89/8/8test15.3.png"> 
+                    <img src="89/8/8test15.4.png">  
+                    `;
+                    break;
+
+                case "Неділя 3":
+                    contentHTML = `
+                    <h1>Неділя 3</h1>
+                    <h3>Lab: Displaying images</h3>
+                    <img src="89/8/8code7.1.png">     
+                    <img src="89/8/8code7.2.png">    
+                    <h3>Self review: Displaying images</h3>
+                    <img src="89/8/8test16.1.png"> 
+                    <img src="89/8/8test16.2.png">   
+                    <h3>Song selection</h3>    
+                    <img src="89/8/8code8.1.png">  
+                    <h3>Self review: Song selection</h3>
+                    <img src="89/8/8test17.1.png"> 
+                    <img src="89/8/8test17.2.png"> 
+                    <h3>Module quiz: navigation, updating and assets in React.js</h3>
+                    <img src="89/8/8test18.1.png"> 
+                    <img src="89/8/8test18.2.png">     
+                    <img src="89/8/8test18.3.png"> 
+                    <img src="89/8/8test18.4.png">         
+                    `;
+                    break;
+
+                case "Неділя 4":
+                    contentHTML = `
+                    <h1>Неділя 4</h1>
+                    <h3>Build a calculator app</h3>    
+                    <img src="89/8/8code9.1.png">     
+                    <img src="89/8/8code9.2.png">    
+                    <img src="89/8/8code9.3.png">    
+                                                        
+                    `;
+                    break;
+        
+                case "Сертифікат + Оцінки":
+                contentHTML = `
+                    <h1>Сертифікат + Оцінки</h1>
+                    <img src="89/8/sert1.png">   
+                    <img src="89/8/result.png">     
+                    
+                    `;
+                    break;
+            
+            case "Постановка задачі ЛР № 9":
+                contentHTML = `
+                    <h3>Тема: React Basics</h3>
+                    <p>Розміщено на GitHub</p>
+                    <p><a href="" target="_blank">Звіт.</a> <a href="" target="_blank">Сайт звіту.</a></p>
+        
+                    `;
+                    break;
+        
+                case "Неділя 12":
+                    contentHTML = `
+                    <h1>Неділя 1</h1>
+                    <h3>Node JS - Practice Quiz</h3>
+                    <img src="89/9/9test1.png"> 
+                    <img src="89/9/9test1.2.png">     
+                    <h3>Node JS - Graded Quiz</h3>
+                    <img src="89/9/9test2.1.png"> 
+                    <img src="89/9/9test2.2.png">  
+                    <img src="89/9/9test2.3.png"> 
+                    <img src="89/9/9test2.4.png">  
+                    <img src="89/9/9test2.5.png"> 
+                    <img src="89/9/9test2.6.png">  
+                    <img src="89/9/9test2.7.png"> 
+                    <img src="89/9/9test2.8.png">  
+                    `;
+                    break;
+                
+                case "Неділя 22":
+                    contentHTML = `
+                    <h1>Неділя 2</h1>
+                    <h3>MongoDB - Practice Quiz</h3>
+                    <img src="89/9/9test3.1.png"> 
+                    <img src="89/9/9test3.2.png">  
+                    <img src="89/9/9test3.3.png"> 
+                    <h3>Installation & API - Practice Quiz</h3>
+                    <img src="89/9/9test4.1.png"> 
+                    <img src="89/9/9test4.2.png">  
+                    <img src="89/9/9test4.3.png"> 
+                    <h3>MongoDB - Graded Quiz</h3>
+                    <img src="89/9/9test5.1.png"> 
+                    <img src="89/9/9test5.2.png">  
+                    <img src="89/9/9test5.3.png"> 
+                    <img src="89/9/9test5.4.png">  
+                    <img src="89/9/9test5.5.png"> 
+                    <img src="89/9/9test5.6.png">  
+                    <img src="89/9/9test5.7.png"> 
+                    <img src="89/9/9test5.8.png">  
+                    <img src="89/9/9test5.9.png"> 
+                    `;
+                    break;
+
+                case "Неділя 32":
+                    contentHTML = `
+                    <h1>Неділя 3</h1>
+                    <h3>Middleware - Practice Quiz</h3>
+                    <img src="89/9/9test6.1.png"> 
+                    <img src="89/9/9test6.2.png">  
+                    <img src="89/9/9test6.3.png"> 
+                    <h3>Handling Errors - Practice Quiz</h3>
+                    <img src="89/9/9test7.1.png"> 
+                    <img src="89/9/9test7.2.png">  
+                    <img src="89/9/9test7.3.png"> 
+                    <h3>Authentication and Authorization - Practice Quiz</h3>
+                    <img src="89/9/9test8.1.png"> 
+                    <img src="89/9/9test8.2.png">  
+                    
+                    `;
+                    break;
+        
+                case "Сертифікат + Оцінки2":
+                contentHTML = `
+                    <h1>Сертифікат + Оцінки</h1>
+                    <img src="89/9/sert2.png">   
+                    <img src="89/8/result.png">     
+                    
+                    `;
+                    break;
                 
         default:
             contentHTML = "<p>Тут має відображатися зміст вибраного пункту меню.</p>";
             break;
     }
+
+    
+
+
+
+    
 
     // Виведення змісту відповідного пункту меню в блок
     document.getElementById("lab-content").innerHTML = contentHTML;
